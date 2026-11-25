@@ -1,15 +1,8 @@
 # Amazon Review Analysis Skill
 
-[![License](https://img.shields.io/badge/License-%E8%87%AA%E5%AE%9A%E4%B9%89%E5%8D%8F%E8%AE%AE-blue)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](requirements.txt)
-[![GitHub Stars](https://img.shields.io/github/stars/CoderAndyLee/amz-review-analysis-skill?style=social)](https://github.com/CoderAndyLee/amz-review-analysis-skill/stargazers)
-[![WeChat](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-andylee610-07C160?logo=wechat&logoColor=white)](#%E7%A4%BE%E5%8C%BA%E4%BA%A4%E6%B5%81)
-
 把卖家精灵导出的 **产品表 + Review 表**，整理成一套可复用的 Agent Skill：分类体系会在分析过程中逐步生长，单元格保留买家原文摘录，最终输出交互式 HTML 看板和交付 Excel。
 
-> 作者：[Andy聊跨境](https://www.amzandy.cn) · 微信 `andylee610`（备注 Review Skill）
->
-> GitHub 下载慢？可使用 [备用下载地址](https://amzandy.cn/resources?resource=0ea6e88d-2e5c-454f-88a6-af253cf1ac9c)。
+
 
 [安装与使用](#安装与使用) · [目录约定](#目录约定) · [Demo 与边界](#demo-与边界) · [社区交流](#社区交流) · [版权与使用范围](#版权与使用范围)
 
@@ -118,66 +111,6 @@ python scripts/build_delivery.py \
 
 本仓库不提供爬虫，也不代替 Shulex 做 30 秒扫盘。Shulex 适合快速看结构，这套 Skill 用于下钻买家原话。
 
-## 社区交流
-
-遇到使用问题、类目特例，或想看其他类目的分析过程，都欢迎来交流。添加个人微信请备注 **Review Skill**。
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/qr-wechat.jpg" alt="个人微信二维码 andylee610" width="180" />
-    </td>
-    <td align="center" width="50%">
-      <img src="assets/qr-mp.jpg" alt="公众号 ANDY聊跨境 二维码" width="180" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <strong>个人微信</strong><br />
-      <code>andylee610</code>（备注 Review Skill）
-    </td>
-    <td align="center" width="50%">
-      <strong>公众号</strong><br />
-      ANDY聊跨境
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/qr-group.jpg" alt="跨境 AI 交流群二维码" width="180" />
-    </td>
-    <td align="center" width="50%">
-      <img src="assets/qr-site.jpg" alt="Andy聊跨境官网二维码" width="180" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <strong>跨境 AI 交流群</strong><br />
-      扫码加入交流群
-    </td>
-    <td align="center" width="50%">
-      <strong>博客官网</strong><br />
-      <a href="https://www.amzandy.cn">amzandy.cn</a>
-    </td>
-  </tr>
-</table>
-
-> 群二维码有效期较短。如已过期，请添加个人微信并备注「进群」。
-
-其他入口：[博客 www.amzandy.cn](https://www.amzandy.cn) · [知无不言 @Andy聊跨境](https://www.wearesellers.com/people/Andy%E8%81%8A%E8%B7%A8%E5%A2%83) · [GitHub @CoderAndyLee](https://github.com/CoderAndyLee)
-
-## 友情链接
-
-跨境与 AI 方向的实用站点，按需取用。如需互换友链，可以通过微信联系。
-
-| 站点                                    | 简介                                                          |
-| --------------------------------------- | ------------------------------------------------------------- |
-| [Andy聊跨境](https://www.amzandy.cn)    | 作者博客：选品、广告、AI 落地的实战长文                       |
-| [DeepSeller](https://www.deepseller.cn) | AI 赋能的跨境电商解决方案：工具、课程与卖家社群               |
-| [DEEPAMZ](https://www.deepamz.com)      | AI 赋能的跨境电商解决方案：工具、课程与卖家社群（亚马逊方向） |
-
-## 版权与使用范围
-
-Copyright © 2026 Andy（CoderAndyLee / Andy聊跨境）。保留所有权利。
 
 **可以：**
 
@@ -197,4 +130,3 @@ Copyright © 2026 Andy（CoderAndyLee / Andy聊跨境）。保留所有权利。
 
 > 本项目对个人学习和团队内部使用 **完全免费**。如果有人向您收费出售，请拒绝交易，欢迎把情况反馈给作者。
 
-完整条款见 [LICENSE](LICENSE)。欢迎 issue / PR。分类协议有争议时，先对照 `references/`，不要另起一套树。
